@@ -9,7 +9,7 @@ import geminiResponse from './gemini.js';
 dotenv.config();
 const app = express();
 app.use(cors({
-    origin: 'http://localhost:5173', // frontend URL
+    origin: 'https://virtual-assistant-8nqs.onrender.com', // frontend URL
     credentials: true,
 }));
 const port = process.env.PORT || 8000;
