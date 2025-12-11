@@ -13,7 +13,7 @@ import { LuImagePlus } from 'react-icons/lu'
 import { MdKeyboardBackspace } from "react-icons/md";
 
 import { useContext } from 'react'
-import { userDataContext } from '../context/userContext.jsx'
+import { userDataContext } from '../context/UserContext.jsx'
 import { useNavigate } from 'react-router-dom'
 
 const Customize = () => {
