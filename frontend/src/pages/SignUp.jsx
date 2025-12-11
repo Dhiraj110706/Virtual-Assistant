@@ -1,37 +1,4 @@
-// import React, { useState } from "react";
-// import bg from "../assets/authBg.png";
-// import { FaRegEye , FaRegEyeSlash } from "react-icons/fa";
-// // import useState from "react";
 
-
-
-// function SignUp() {
-//   const [showPassword, setShowPassword] = useState(false);
-//   return (
-//     <div
-//       className="w-full h-screen bg-cover bg-center flex justify-center items-center"
-//       style={{ background: `url(${bg})` }}
-//     >
-//       {/* Your form or content here */}
-//       <form className="w-[90%] h-[700px] max-w-[500px] bg-[#00000062] backdrop-blur shdow-lg shadow-black flex flex-col items-center justify-center gap-4 px-4">
-//         <h1 className="text-white text-[30px] font-semibold mb-6">Register to <span className="text-blue-400">Virtual Assistant</span> </h1>
-//         <input type="text" placeholder="Enter username" className="w-full h-12 rounded-full px-4 py-2 text-white border-2 border-white bg-transparent placeholder-gray-300 text-lg focus:outline-none" />
-//         <input type="email" placeholder="Enter email" className="w-full h-12 rounded-full px-4 py-2 text-white border-2 border-white bg-transparent placeholder-gray-300 text-lg focus:outline-none" />
-//          <div className="w-full h-12 border-2 bg-transparent text-white rounded-full text-[18px] relative">
-//         <input type= {showPassword ? "text" : "password"} placeholder="Enter password" className="w-full h-full rounded-full px-4 py-2 text-white  border-white bg-transparent placeholder-gray-300 text-lg focus:outline-none" />
-//         {!showPassword && <FaRegEye className="absolute right-4 top-3 text-white cursor-pointer" size={20} onClick={() => setShowPassword(true)} />
-//           }
-//         {showPassword && <FaRegEyeSlash className="absolute right-4 top-3 text-white cursor-pointer" size={20} onClick={() => setShowPassword(false)} />}
-//         </div>
-//         <button type="submit" className="w-full h-12 bg-blue-500 text-white rounded-md text-lg font-semibold hover:bg-blue-600 transition duration-300">Sign Up</button>
-
-
-//     </form>
-//     </div>
-//   );
-// };
-
-// export default SignUp;
 
 
 import React, { useState , useContext } from "react";
@@ -39,9 +6,8 @@ import bg from "../assets/authBg.png";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { userDataContext } from "../context/userContext.jsx";
-// import { set } from "mongoose";
-// import { set } from "mongoose";
+import { userDataContext } from "../context/UserContext.jsx";
+
 
 
 function SignUp() {
