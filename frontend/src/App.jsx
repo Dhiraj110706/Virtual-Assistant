@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { useContext } from 'react';
-import { userDataContext } from './context/userContext.jsx';
+import { userDataContext } from './context/UserContext.jsx';
 
 import SignUp from './pages/SignUp.jsx';
 import LogIn from './pages/LogIn.jsx';
