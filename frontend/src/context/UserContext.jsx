@@ -47,7 +47,7 @@ export const userDataContext = createContext();
 // 2. Define the Provider Component
 const UserContext = ({ children }) => {
     // Define the server URL
-    const serverUrl = "http://localhost:8000";
+    const serverUrl = "https://virtual-assistant-backend-ani7.onrender.com";
 
     // State to hold the current user data
     const [userData, setUserData] = useState(null);
